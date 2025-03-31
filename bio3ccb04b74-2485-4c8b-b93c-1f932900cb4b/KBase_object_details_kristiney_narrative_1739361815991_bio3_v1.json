@@ -1,0 +1,101 @@
+{
+    "metadata": [
+        [
+            90,
+            "bio3",
+            "KBaseFBA.FBAModel-15.0",
+            "2025-02-21T14:15:03+0000",
+            1,
+            "kristiney",
+            206506,
+            "kristiney:narrative_1739361815991",
+            "fe89951946bdcb1d331fceacdceb585b",
+            2084375,
+            {
+                "Genome": "206506/80/1",
+                "Name": "Bacillus subtilis subsp. natto BEST195",
+                "Number biomasses": "1",
+                "Number compartments": "2",
+                "Number compounds": "1351",
+                "Number gapfills": "2",
+                "Number gapgens": "0",
+                "Number reactions": "1412",
+                "Source": "",
+                "Source ID": "",
+                "Type": ""
+            }
+        ]
+    ],
+    "provenance": [
+        {
+            "copy_source_inaccessible": 0,
+            "created": "2025-02-21T14:15:01+0000",
+            "creator": "kristiney",
+            "epoch": 1740147301437,
+            "extracted_ids": {},
+            "info": [
+                90,
+                "bio3",
+                "KBaseFBA.FBAModel-15.0",
+                "2025-02-21T14:15:03+0000",
+                1,
+                "kristiney",
+                206506,
+                "kristiney:narrative_1739361815991",
+                "fe89951946bdcb1d331fceacdceb585b",
+                2084375,
+                {
+                    "Genome": "206506/80/1",
+                    "Name": "Bacillus subtilis subsp. natto BEST195",
+                    "Number biomasses": "1",
+                    "Number compartments": "2",
+                    "Number compounds": "1351",
+                    "Number gapfills": "2",
+                    "Number gapgens": "0",
+                    "Number reactions": "1412",
+                    "Source": "",
+                    "Source ID": "",
+                    "Type": ""
+                }
+            ],
+            "orig_wsid": 206506,
+            "path": [
+                "206506/90/1"
+            ],
+            "provenance": [
+                {
+                    "custom": {},
+                    "external_data": [],
+                    "input_ws_objects": [],
+                    "intermediate_incoming": [],
+                    "intermediate_outgoing": [],
+                    "method": "gapfill_metabolic_model",
+                    "method_params": [
+                        {
+                            "custom_bound_list": [],
+                            "fbamodel_id": "206506/82/1",
+                            "fbamodel_output_id": "bio3",
+                            "feature_ko_list": [],
+                            "media_id": "206506/42/4",
+                            "media_supplement_list": "",
+                            "minimum_target_flux": 0.1,
+                            "reaction_ko_list": "",
+                            "source_fbamodel_id": null,
+                            "source_media_supplement_list": "",
+                            "target_reaction": "bio1",
+                            "workspace": "kristiney:narrative_1739361815991"
+                        }
+                    ],
+                    "resolved_ws_objects": [],
+                    "service": "fba_tools",
+                    "subactions": []
+                }
+            ],
+            "refs": [
+                "262/536/1",
+                "206506/42/4",
+                "206506/80/1"
+            ]
+        }
+    ]
+}
