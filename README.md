@@ -1,3 +1,3 @@
 # Simulating-B.Natto
 
-#Metabolic Modeling
+#Metabolic Modeling with Jupyter Notebook
